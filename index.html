@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d671b20a29.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="/img/ofidia.png" />
     <title>Ofidia</title>
@@ -15,19 +18,31 @@
 
 <body>
 
-<header class="header">
-        <a class="header--logo" href = index.html> <img src = "./img/ofidia.png"  alt="Ofidia logo"></a>
+    <header class="header">
+        <a class="header__logo" href = ../index.html> <img src = "../img/ofidia.png"  alt="Ofidia logo"></a>
         <span class="header--titulo"> Editorial Ofidia</span>
         <nav class="header--navbar">
-            <ul class="header--navbar--list">
-                <li> <a class="link" href= "./pages/promociones.html"> Promociones </a> </li>
-                <li> <a class="link" href= "./pages/tienda.html"> Tienda </a> </li>
+            <ul class="nav-item">   
+                <li> <a class="nav-link" href= "pages/promociones.html"> Promociones </a> </li>
                 <li> <a class="link" href= "./pages/convocatorias.html"> Convocatorias </a> </li>
                 <li> <a class="link" href= "./pages/sobrenosotros.html"> Sobre Nosotros </a> </li>
                 <li> <a class="link" href= "./pages/contacto.html"> Contacto </a> </li>
+                <div class="btn-group">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                    TIENDA
+                    </button>
+                    <div class="dropdown-menu">
+                        <div>
+                        <li><a class="dropdown-item" href="#">Agenda 2022</a></li>
+                        <li><a class="dropdown-item" href="#"> Antologia 2021</a></li>
+                        <li><a class="dropdown-item" href="#">Instinto Materno</a></li>
+                        <li><a class="dropdown-item" href="#">Weird Stories I</a></li>
+                        <a class="link" href= "./pages/tienda.html"> Mas </a>
+                    </div>
+                    </div>
             </ul>
         </nav>
-</header>
+    </header>
 
 
 
@@ -36,7 +51,7 @@
     <section class="mainPart">
         <h1 class="title">Novedades!</h1>
         <a class="picture"> <img src = "./img/instintomaterno.png"  alt="Instinto Materno"></a>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque quas nobis reprehenderit dignissimos laboriosam mollitia nihil maiores velit quibusdam harum, vitae optio ad sed illum quis alias, rerum doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias voluptas quos accusantium nihil distinctio architecto vero soluta laboriosam? Sed distinctio ipsum modi quos reiciendis atque cumque animi ducimus impedit sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, vel porro fuga inventore hic neque vero maiores molestias ipsum harum consequatur distinctio deleniti officia eveniet iste. Minima eos quia cumque. </p>
+        <h3 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque quas nobis reprehenderit dignissimos laboriosam mollitia nihil maiores velit quibusdam harum, vitae optio ad sed illum quis alias, rerum doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias voluptas quos accusantium nihil distinctio architecto vero soluta laboriosam? Sed distinctio ipsum modi quos reiciendis atque cumque animi ducimus impedit sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, vel porro fuga inventore hic neque vero maiores molestias ipsum harum consequatur distinctio deleniti officia eveniet iste. Minima eos quia cumque. </h3>
 
     </section>
 

@@ -9,7 +9,7 @@ body{
     font-family: 'Arial', sans-serif;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 8.5rem auto auto auto auto;
+    grid-template-rows: 13rem auto auto auto auto;
 }
 
 
@@ -17,7 +17,7 @@ body{
 /* HEADER */
 .header{ 
     display: flex;
-    height: 131;
+    height: 300px;
     background-color: rgb(255, 227, 240);
     flex-wrap: wrap;
     grid-column-start: 1;
@@ -30,7 +30,7 @@ body{
 .header--navbar{
     padding: 2rem ;
     list-style-type: none;
-    padding-top: 60px;
+    padding-top: 5rem;
     position: absolute;
     right: 0rem;
     display: flex;
@@ -48,12 +48,12 @@ body{
     text-transform: uppercase;
     color: rgb(250, 233, 250);
     font-family: 'Arial', Courier, monospace;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     background-color: rgb(24, 24, 24);
     padding: 0.9rem;
     border-radius: 5px;
 }
-.header--navbar a:hover {
+.header--navbar h4:hover {
     background-color: rgb(72, 72, 72);
 }
 
@@ -62,14 +62,29 @@ body{
     font-size: 2.5rem;
     padding-top: 50px;
 }
+.header--logo{
+max-width: 100%;
+  height: auto;
+}
+
+.btn{
+    background-color: rgb(24, 24, 24) ;
+    color: rgb(250, 233, 250);
+    text-transform: uppercase;
+    font-family: 'Arial', Courier, monospace;
+    font-size: 1.2rem
+}
+
 
 
 
 /* MAIN */
 .general {
+    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
+    
 }
 .mainPart{
     grid-column-start: 1;
@@ -99,7 +114,7 @@ body{
 .text{
     padding: 2rem ;
     font-family: 'Times New Roman', Courier, monospace;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 
@@ -207,6 +222,7 @@ body{
 /* FORM */ 
 .form{
     padding: 2rem;
+    color: black;
     background-color: rgb(255, 227, 240);
     border-radius: 10px; 
     align-content: center;
@@ -274,7 +290,7 @@ body{
     font-family: 'Arial', sans-serif;
     display: grid;
     grid-template-columns: 75% 25%;
-    grid-template-rows: 8.5rem auto auto;
+    grid-template-rows: 13rem auto auto;
 }
 .header--navbar li{
     bottom: 3rem;
