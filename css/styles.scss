@@ -1,0 +1,102 @@
+$fontMain: 'Arial', sans-serif;
+$COLOR1: rgb(255, 227, 240);
+$COLOR2: rgb(24, 24, 24);
+$COLOR3: rgb(231, 231, 231);
+
+*{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $fontMain;
+}
+
+/*HEADER*/
+header{ 
+    
+    height: 300px;
+    background-color: $COLOR1;
+    nav{
+        padding: 2rem ;
+        list-style-type: none;
+        padding-top: 5rem;
+        position: absolute;
+        right: 0rem;
+        li{
+            padding-top: 2rem;
+            display: block;
+            padding-right: 2px;
+            
+        }
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $COLOR1;
+            font-family: $fontMain, monospace;
+            font-size: 1.2rem;
+            background-color: $COLOR2;
+            padding: 0.9rem;
+            border-radius: 5px;
+        }
+       
+    }
+    img{
+        max-width: 100%;
+          height: auto;
+        }
+        a{&:hover {
+            background-color: rgb(72, 72, 72);
+        }}
+    .h2{
+            color:$COLOR2;
+            font-size: 2.5rem;
+            padding-top: 50px;
+    }
+    .btn{
+        background-color: $COLOR2 ;
+        color: $COLOR1;
+        text-transform: uppercase;
+        font-family: $fontMain, monospace;
+        font-size: 1.2rem
+    }
+    
+}
+
+
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $COLOR2;
+    color: $COLOR3;
+    padding: 1rem;
+    .list{
+        list-style-type: none;
+        text-align: left;
+        a{
+            padding: 0.2rem;
+            color: $COLOR3;
+            text-decoration: none;
+        }
+    }
+    li{
+        padding: 0.25rem;
+        color: $COLOR3;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
