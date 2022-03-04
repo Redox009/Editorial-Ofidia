@@ -1,0 +1,48 @@
+/* header */
+.header {
+  background-color: #ffe3f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-flex-line-pack: right;
+      align-content: right;
+  width: 100%;
+  padding: 0%;
+}
+
+.header nav {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "B  A";
+  background-color: #ffe3f0 !important;
+  width: 100%;
+}
+
+.header .opcionesHeader {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: A;
+}
+
+.header .imagenHeader {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: B;
+}
+
+.header a {
+  font-family: "Arial", sans-serif;
+  color: #181818 !important;
+  width: auto;
+  padding-right: 3px;
+  font-size: 17px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.header a:hover {
+  color: black;
+}
+/*# sourceMappingURL=stylesHeader.css.map */

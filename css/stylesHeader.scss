@@ -1,0 +1,45 @@
+/* header */
+$fontMain: 'Arial', sans-serif;
+$COLOR1: rgb(255, 227, 240);
+$COLOR2: rgb(24, 24, 24);
+$COLOR3: rgb(231, 231, 231);
+
+.header {
+    background-color: $COLOR1;
+    display: flex;
+    justify-content: right;
+    align-content: right;
+    width: 100%;
+    padding: 0%;
+
+    nav {
+        display: grid;
+        grid-template-areas: "B  A";
+        background-color: $COLOR1 !important ;
+        width: 100%;
+    }
+
+    .opcionesHeader {
+        grid-area: A;
+        
+    }
+
+    .imagenHeader {
+        grid-area: B;
+
+    }
+
+
+    a {
+        font-family: $fontMain;
+        color: $COLOR2 !important;
+        width: auto;
+        padding-right: 3px;
+        font-size: 17px;
+        text-shadow: 2px 2px 2px gray;
+    }
+
+    a:hover{
+        color: black;
+    }
+}

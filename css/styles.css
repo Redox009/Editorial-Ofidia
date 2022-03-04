@@ -10,60 +10,7 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-/*HEADER*/
-header {
-  height: 300px;
-  background-color: #ffe3f0;
-}
-
-header nav {
-  padding: 2rem;
-  list-style-type: none;
-  padding-top: 5rem;
-  position: absolute;
-  right: 0rem;
-}
-
-header nav li {
-  padding-top: 2rem;
-  display: block;
-  padding-right: 2px;
-}
-
-header nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #ffe3f0;
-  font-family: "Arial", sans-serif, monospace;
-  font-size: 1.2rem;
-  background-color: #181818;
-  padding: 0.9rem;
-  border-radius: 5px;
-}
-
-header img {
-  max-width: 100%;
-  height: auto;
-}
-
-header a:hover {
-  background-color: #484848;
-}
-
-header .h2 {
-  color: #181818;
-  font-size: 2.5rem;
-  padding-top: 50px;
-}
-
-header .btn {
-  background-color: #181818;
-  color: #ffe3f0;
-  text-transform: uppercase;
-  font-family: "Arial", sans-serif, monospace;
-  font-size: 1.2rem;
-}
-
+/*FOOTER*/
 .footer {
   position: relative;
   left: 0;
@@ -89,5 +36,14 @@ header .btn {
   padding: 0.25rem;
   color: #e7e7e7;
   text-decoration: none;
+}
+
+.aside h4 {
+  color: #181818;
+}
+
+.productImage2 img {
+  width: 70%;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
